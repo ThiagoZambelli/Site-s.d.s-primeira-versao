@@ -2,5 +2,5 @@
 >Esta é a primeira versão do site utilizando apenas HTML e CSS
 
 ```
-esat e a versao de desenvolvimento
+esta é a versao de desenvolvimento
 ```
