@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="header_foolder.css">
+		<link rel="stylesheet" href="contato.css">
+		<title>S.D.S Contato</title>
+		<link rel="icon" type="image/png" href="logos\icone_aba.png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="corpo_header">
+				<h1><a href="home.html"><img src="logos\logo.png" alt="logo da SDS"> </a></h1>
+
+				<nav>			
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="quem_somos.html">Quem Somos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>	
+		</header>
+		<main>			
+			<form class="formulario">
+				<div class="cabecalho">
+					<img src="logos\logo.png" alt="Logo da S.D.S">
+					<h2>Mande-nos uma mensagem!</h2>
+				</div>
+
+				<fieldset class="formulario_principal">
+					<label for="nome">Nome Completo</label>
+					<input type="text" id="nome" required placeholder="Nome Sobrenome">
+
+					<label for="email">Email</label>
+					<input type="email" id="email" required placeholder="SeuEmail@Dominio.com">
+
+					<label for="telefone">Telefone</label>
+					<input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+
+					<label for="mensagem">Mensagem</label>
+					<textarea id="mensagem" rows="10" required></textarea>
+				</fieldset>
+
+				<fieldset class="selecionar_jogador">
+					<legend>A mensagem é para qual jogador?</legend>
+					<label for="bei"><input type="radio" value="Beicolwins" id="bei" name="jogador"> Beicolwins</label>
+					<label for="the"><input type="radio" value="Thenarius" id="the" name="jogador"> Thenarius</label>
+					<label for="lim"><input type="radio" value="Limubay" id="lim" name="jogador"> Limubay</label>
+					<label for="ueg"><input type="radio" value="Ugonai" id="ueg" name="jogador"> Uegonai</label>
+				</fieldset>
+
+				<fieldset class="acompanha">
+					<legend>Nos acompanha com mais frequência em qual plataforma?</legend>
+					<select>
+						<option class="option_y">YouTube</option>
+						<option class="option_t">Twitch</option>
+					</select>
+				</fieldset>
+
+
+				<label class="receber"><input type="checkbox">Gostaria de receber uma resposta?</label>
+				
+            	<input class="enviar" type="submit" value="Enviar Contato">
+			</form>
+		</main>
+		<footer>
+			<div class="footer">
+				<img src="logos\footer_logo.png" alt="logo de rodape da S D S">
+				<p class="copyright">&copy; Copyright - 2023 Thiago Zambelli. All rights reserved.</p>
+			</div>
+		</footer>
+
+	</body>
+</html>
