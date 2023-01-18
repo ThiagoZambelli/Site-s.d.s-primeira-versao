@@ -1,0 +1,111 @@
+header{
+	border-bottom: 15px double black;
+	background-color: #034159;
+	background-image: url(bg_header.png);
+	font-family: 'Orbitron', sans-serif;
+}
+.corpo_header{
+	width: 940px;
+	margin: 0 auto 20px auto;
+	padding: 20px;
+}
+.corpo_header{
+	position: relative;
+}
+.corpo_header img{
+	width: 250px;
+	transition: 0.8s;
+}
+.corpo_header img:hover{
+	transform: scale(1.02);	
+}
+.corpo_header nav{
+	position: absolute;
+	top: 125px;
+	right: 0px;
+}
+.corpo_header li{
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 0 10px;
+	font-size: 30px;
+	text-transform: uppercase;
+	transition: 1s transform;
+}
+.corpo_header li a{
+	text-decoration: none;
+	color: #0CF25D;
+	transition: 0.5s color;
+}
+.corpo_header li:hover{
+	transform: scale(1.05)
+}
+.corpo_header li a:hover{
+	color: white;	
+}
+
+.footer{
+	text-align: center;
+	padding: 20px;
+	background-color: #038C3E;
+	background-image: url(bg_header.png);
+	border-top: 15px double black;
+}
+.footer img{
+	width: 100px;
+	margin: 10px;
+}
+.copyright{
+	font-size: 12px
+}
+@media screen and (max-width: 480px){
+	.corpo_header, header, main ,.corpo_tabela, main .corpo {
+		width: auto;
+	}
+	/* Mudanças no HEADER*/
+	header .corpo_header li{
+		font-size: small;
+		display: block;		
+	}
+	.corpo_header nav{
+		top: 30px;
+		right: 20%;
+	}
+	.corpo_header img{
+		width: 25%;
+	}
+
+	/* Mudanças no Quem somos*/
+	main .quem_somos h2{
+		font-size: 4em;
+	}
+	main .equipie li{
+		width: 40%;
+	}
+
+	/* Mudanças no Home*/
+	main .dias_de_live thead{
+		font-size: 1em;
+		height: auto;
+	}
+	main .dias_de_live tbody{
+		font-size: 0.7em;
+	}
+	main .videos{
+		width: 80%;
+	}
+	iframe{
+		width: 80%;
+		height: auto;
+	}
+	
+	/* Mudanças no Contato*/
+	main .cabecalho img{
+		width: 80%;
+	}
+	main .enviar{
+		font-size: 1em;
+		width: auto;
+	}
+
+}

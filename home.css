@@ -1,0 +1,73 @@
+main{
+	font-family: 'Gruppo', cursive;
+	padding: 40px 0 80px 0;
+	background-image: url("bg_header.png");	
+	background-color: #02735E;		
+}
+.cabecalho{
+	text-align: center;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 20px 0 1em 0;
+	color: #034159;
+	padding: 0 0 1em 0;
+	border-bottom: 2px dashed #034159;
+}
+.videos{
+	width: 940px;
+	margin: 0 auto 0 auto;
+	padding: 80px 0 40px 0;
+	text-align: center;
+}
+.videos label{
+	font-size: 2em;	
+	color: #034159;	
+}
+.video{	
+	margin: 20px auto 80px auto;
+}
+.dias_de_live{
+	width: 60%;
+	margin: 0 auto 0 auto;
+	text-align: center;	
+}
+
+.corpo_tabela{	
+	border-radius: 20px;
+	background-color: #034159;
+	color: #fefefe;	
+	box-shadow: 20px 20px 20px black;
+}
+.dias_de_live thead{
+	width: 70%;
+	height: 120px;
+	font-size: 3em;
+	border-bottom: 2px dashed #038C3E;
+	background-color: #025951;	
+}
+.dias_de_live tbody{
+	font-size: 1.5em;
+}
+
+.linhas_tabela_live:nth-child(2n){
+	background-color: #025951;	
+}
+.dias_de_live th{
+	padding: 10px;
+}
+.dias_de_live td{
+	width: 25%;
+	padding: 10px;
+}
+.dias_de_live img{
+	width: 80%;
+	margin: 5px;
+	padding: 5px;	
+}
+.tabela_img td{
+	transition: 0.5s;
+}
+.tabela_img td:hover{
+	transform: scale(1.5);
+}
