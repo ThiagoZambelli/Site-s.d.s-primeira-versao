@@ -107,5 +107,9 @@ header{
 		font-size: 1em;
 		width: auto;
 	}
-
+	.missao{
+		text-align: center;
+		font-size: 1rem;
+		padding: 0 1em 0 1em;
+	}	
 }
