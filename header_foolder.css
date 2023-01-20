@@ -1,4 +1,4 @@
-header{
+/*header{
 	border-bottom: 15px double black;
 	background-color: #034159;
 	background-image: url(bg_header.png);
@@ -43,6 +43,60 @@ header{
 .corpo_header li a:hover{
 	color: white;	
 }
+*/
+:root{
+
+	--cor-verde-media: #02735E;
+	--azul-mais-forte: #034159;
+	--verde-mais-escuro:#025951;
+	--verde-destaque:#038C3E;
+	--verde-claro-luz:#0CF25D;
+	--verde-claro-luz-sombra:#04BF9D;
+	--preto-principal: black;
+
+}
+
+.container__flexbox{
+	display: flex;
+}
+.container__grid{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	text-align: center;	
+}
+header{
+	background-color: var(--verde-mais-escuro);
+	background-image: url(bg_header.png);
+	border-bottom: 1rem double var(--preto-principal);
+}
+.header__logo{
+	display: block;
+	width: 50%;
+	margin: 1rem auto 1rem auto;
+}
+.header__logo:hover{
+	transform: scale(1.02);
+}
+.botoes__nav{
+	font-size: 3rem;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	margin: auto 0 auto 0;
+	height: 100%;
+}
+.botao__nav{
+	color: var(--verde-claro-luz);
+	text-decoration: none;
+	transition: 0.5s;
+}
+.botao__nav:hover{
+	color: var(--verde-claro-luz-sombra);	
+	text-decoration: underline;
+	font-size: 3.2rem;
+}
+
+
 
 .footer{
 	text-align: center;
